@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyLoginPage</string>
+    <string name="maletext">Male</string>
+    <string name="femaletext">Female</string>
+    <string name="showbutton">Show</string>
+    <string name="checkbox1">Babu</string>
+    <string name="checkbox2">Showmin</string>
+    <string name="checkbox3">Prodip</string>
+    <string name="checkbox4">Rana</string>
+    <string name="checkbox5">Prohor</string>
+    <string name="checkbox6">Mamun</string>
+    <string name="checkbox7">Lemon</string>
+    <string name="checkbox8">Himel</string>
+    <string name="checkbox9">Shuvo</string>
+    <string name="ques1">Who is best?</string>
+    <string name="ques2">What is your name?</string>
+    <string name="ques3">Who love you?</string>
+</resources>

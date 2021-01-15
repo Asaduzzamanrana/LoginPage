@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".NextActivity">
+
+
+    <RatingBar
+        android:id="@+id/ratingbarid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:progressBackgroundTint="#FFFFFFFF"
+        android:progressTint="#F55D08"
+        android:rating="3"
+        android:stepSize="1"
+        android:numStars="5"
+        />
+
+    <TextView
+        android:id="@+id/ratingtexteviewid"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:layout_marginRight="20dp"
+            android:id="@+id/gobuttonid"
+            android:text="Go"
+            android:textColor="#FFFFFFFF"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:id="@+id/backbuttonid"
+            android:text="Serve"
+            android:textColor="#FFFFFFFF"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageview1id"
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/image1"
+        />
+
+
+</LinearLayout>
